@@ -1,0 +1,57 @@
+.titre {
+  color: #4d0302;
+}
+
+.App {
+  text-align: center;
+  min-height: 100vh;
+  background-color: #fff6d6;
+  display: flex;
+}
+
+button {
+  background: #4d0302;
+  border: 1px solid #4d0302;
+  box-sizing: border-box;
+  border-radius: 8px;
+  height: 50px;
+  width: 150px;
+  color: white;
+  font-family: "Incosolate";
+  font-weight: "bold";
+}
+.Center {
+  justify-content: center;
+  align-items: center;
+  flex: 4;
+  float: left;
+}
+
+.Commande {
+  float: right;
+  flex: 2;
+  background-color: white;
+}
+
+.logo {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+
+  background-blend-mode: darken;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+div {
+  font-family: "Incosolate";
+  font-size: "18px";
+  font-weight: 500;
+  color: #4d0302;
+}

@@ -1,0 +1,35 @@
+.cardCmd {
+  border: 2px solid rgba(77, 3, 2, 0.16);
+  box-sizing: border-box;
+  border-radius: 16px;
+  margin: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
+  padding: 20px;
+}
+
+.cardText {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.cardIng {
+  float: left;
+  flex: 4;
+}
+.cardQuant {
+  flex: 1;
+  float: right;
+}
+.cardButton {
+  height: 20px;
+  width: 20px;
+  margin: 5px;
+  text-align: center;
+}
+
+.placeButton{
+    justify-content: space-around;
+    align-items: center;
+}
